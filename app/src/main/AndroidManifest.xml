@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.doc">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".hosp5"></activity>
+        <activity android:name=".hosp6" />
+        <activity android:name=".hosp4" />
+        <activity android:name=".hosp3" />
+        <activity android:name=".hosp2" />
+        <activity android:name=".hosp1" />
+        <activity android:name=".HospitalsHome" />
+        <activity android:name=".derma6" />
+        <activity android:name=".derma5" />
+        <activity android:name=".derma4" />
+        <activity android:name=".derma3" />
+        <activity android:name=".derma2" />
+        <activity android:name=".derma1" />
+        <activity android:name=".Dermatologist" />
+        <activity android:name=".uro6" />
+        <activity android:name=".uro5" />
+        <activity android:name=".uro4" />
+        <activity android:name=".uro3" />
+        <activity android:name=".uro2" />
+        <activity android:name=".uro1" />
+        <activity android:name=".Urology" />
+        <activity android:name=".ent6" />
+        <activity android:name=".ent5" />
+        <activity android:name=".ent4" />
+        <activity android:name=".ent3" />
+        <activity android:name=".ent2" />
+        <activity android:name=".ent1" />
+        <activity android:name=".ENT" />
+        <activity android:name=".cardio6" />
+        <activity android:name=".cardio5" />
+        <activity android:name=".cardio4" />
+        <activity android:name=".cardio3" />
+        <activity android:name=".cardio2" />
+        <activity android:name=".cardio1" />
+        <activity android:name=".Cardiology" />
+        <activity android:name=".gyno6" />
+        <activity android:name=".gyno5" />
+        <activity android:name=".gyno4" />
+        <activity android:name=".gyno3" />
+        <activity android:name=".gyno2" />
+        <activity android:name=".gyno1" />
+        <activity android:name=".Gynaecologist" />
+        <activity android:name=".phy6" />
+        <activity android:name=".phy5" />
+        <activity android:name=".phy4" />
+        <activity android:name=".phy3" />
+        <activity android:name=".phy2" />
+        <activity android:name=".phy1" />
+        <activity android:name=".Psychiaerist" />
+        <activity android:name=".denti6" />
+        <activity android:name=".denti5" />
+        <activity android:name=".denti4" />
+        <activity android:name=".denti3" />
+        <activity android:name=".denti2" />
+        <activity android:name=".denti1" />
+        <activity android:name=".Dentist" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".DoctorsHome" />
+        <activity android:name=".neuro6" />
+        <activity android:name=".neuro5" />
+        <activity android:name=".neuro4" />
+        <activity android:name=".neuro3" />
+        <activity android:name=".neuro2" />
+        <activity android:name=".neuro1" />
+        <activity android:name=".Neurology" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

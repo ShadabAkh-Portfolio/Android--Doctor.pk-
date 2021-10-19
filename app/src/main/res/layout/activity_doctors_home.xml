@@ -1,0 +1,3163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000080"
+    tools:context=".MainActivity">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000080"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            >
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:src="@drawable/logo"
+                android:layout_gravity="center" />
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <TextView
+            android:layout_width="314dp"
+            android:layout_height="wrap_content"
+            android:background="#0505B3"
+            android:gravity="center"
+            android:text="Neurologists"
+            android:textColor="#FBF4F4"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000080"
+                >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/neurodr1"
+
+                    >
+
+
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text="Dr.Muhammad Abid Saleem"
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification: MBBS &amp; F.C.P.S"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 1500 &amp; 2000"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:src="@drawable/neurology1" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:outlineProvider="background">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/neurodr2"
+                    >
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text="Dr.Wajid Jawaid"
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification: MBBS &amp; F.C.P.S"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 1000 &amp; 2000"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:layout_marginLeft="302dp"
+                        android:src="@drawable/neurology2" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/neurodr3"
+                    >
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text="Dr.Jay Singh Rana"
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification: MBBS &amp; F.C.P.S"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 1000 &amp; 1500"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:layout_marginLeft="302dp"
+                        android:src="@drawable/na" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/neurodr4"
+                    >
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text="Dr.Ashfaq A.Razzaq"
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification: F.R.C.S &amp; F.C.P.S"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 1500 &amp; 2000"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:layout_marginLeft="302dp"
+                        android:src="@drawable/neurology4" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/neurodr5"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text="Dr.Qazi Muhammad Zeeshan"
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification: F.C.P.S"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 1500"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:layout_marginLeft="302dp"
+                        android:src="@drawable/na" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/neurodr6"
+                    >
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text="Dr.Muhammad Abid Saleem"
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification: MD , F.C.P.S &amp; M.R.C.P"
+                        android:textColor="#000"
+                        android:textSize="19sp"
+                        android:textStyle="italic"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 1500"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:layout_marginLeft="302dp"
+                        android:src="@drawable/neurology6" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+            <TextView
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:background="#0505B3"
+                android:gravity="center"
+                android:text="Dentist"
+                android:textColor="#FBF4F4"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#000080"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="122dp"
+                        android:id="@+id/dentistdr1"
+
+                        >
+
+
+
+                        <TextView
+                            android:layout_width="314dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingTop="12dp"
+                            android:text="Dr. Mehboob-ul-Haq"
+                            android:textColor="#000"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="314dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingTop="45dp"
+                            android:text="Qualification: BDS &amp; DDCS"
+                            android:textColor="#000"
+                            android:textSize="22sp"
+                            android:textStyle="italic" />
+
+                        <TextView
+                            android:layout_width="314dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingTop="75dp"
+                            android:text="Fees: 1500 &amp; 2000"
+                            android:textColor="#000"
+                            android:textSize="22sp"
+                            android:textStyle="italic" />
+
+                        <ImageView
+                            android:layout_width="109dp"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="304dp"
+                            android:layout_marginLeft="304dp"
+                            android:layout_marginTop="0dp"
+                            android:src="@drawable/na" />
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center"
+                    android:background="#000080"/>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:outlineProvider="background">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="122dp"
+                        android:id="@+id/dentistdr2"
+                        >
+
+                        <TextView
+                            android:layout_width="314dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingTop="12dp"
+                            android:text="Dr. Ali Shouket"
+                            android:textColor="#000"
+                            android:textSize="23sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="314dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingTop="45dp"
+                            android:text="Qualification: BDS &amp;FICCDS"
+                            android:textColor="#000"
+                            android:textSize="22sp"
+                            android:textStyle="italic"/>
+
+                        <TextView
+                            android:layout_width="314dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingTop="75dp"
+                            android:text="Fees: 500 &amp; 1000"
+                            android:textColor="#000"
+                            android:textSize="22sp"
+                            android:textStyle="italic"/>
+
+                        <ImageView
+                            android:layout_width="109dp"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="302dp"
+                            android:layout_marginLeft="302dp"
+                            android:src="@drawable/dentist2" />
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center"
+                    android:background="#000080"/>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="122dp"
+                        android:id="@+id/dentistdr3"
+                        >
+
+                        <TextView
+                            android:layout_width="314dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingTop="12dp"
+                            android:text="Dr. Abdullah Arfeen"
+                            android:textColor="#000"
+                            android:textSize="23sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="314dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingTop="45dp"
+                            android:text="Qualification: BDS &amp; RDSS"
+                            android:textColor="#000"
+                            android:textSize="22sp"
+                            android:textStyle="italic"/>
+
+                        <TextView
+                            android:layout_width="314dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingTop="75dp"
+                            android:text="Fees: 1500 &amp; 2000"
+                            android:textColor="#000"
+                            android:textSize="22sp"
+                            android:textStyle="italic" />
+
+                        <ImageView
+                            android:layout_width="109dp"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="302dp"
+                            android:layout_marginLeft="302dp"
+                            android:src="@drawable/dentist3" />
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center"
+                    android:background="#000080"/>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="122dp"
+                        android:id="@+id/dentistdr4"
+                        >
+
+                        <TextView
+                            android:layout_width="314dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingTop="12dp"
+                            android:text="Dr. Abid Noor"
+                            android:textColor="#000"
+                            android:textSize="23sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="314dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingTop="45dp"
+                            android:text="Qualification: BDS"
+                            android:textColor="#000"
+                            android:textSize="22sp"
+                            android:textStyle="italic"/>
+
+                        <TextView
+                            android:layout_width="314dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingTop="75dp"
+                            android:text="Fees: 1500 &amp; 2000"
+                            android:textColor="#000"
+                            android:textSize="22sp"
+                            android:textStyle="italic"/>
+
+                        <ImageView
+                            android:layout_width="109dp"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="302dp"
+                            android:layout_marginLeft="302dp"
+                            android:src="@drawable/dentist4" />
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center"
+                    android:background="#000080"/>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="122dp"
+                        android:id="@+id/dentistdr5"
+                        >
+
+                        <TextView
+                            android:layout_width="314dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingTop="12dp"
+                            android:text="Dr. Saniya Farheen"
+                            android:textColor="#000"
+                            android:textSize="23sp"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:layout_width="314dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingTop="45dp"
+                            android:text="Qualification: BDS"
+                            android:textColor="#000"
+                            android:textSize="22sp"
+                            android:textStyle="italic"/>
+
+                        <TextView
+                            android:layout_width="314dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingTop="75dp"
+                            android:text="Fees: 500 &amp; 1000"
+                            android:textColor="#000"
+                            android:textSize="22sp"
+                            android:textStyle="italic"/>
+
+                        <ImageView
+                            android:layout_width="109dp"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="302dp"
+                            android:layout_marginLeft="302dp"
+                            android:src="@drawable/na" />
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center"
+                    android:background="#000080"/>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="122dp"
+                        android:id="@+id/dentistdr6"
+                        >
+
+                        <TextView
+                            android:layout_width="314dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingTop="12dp"
+                            android:text="Dr. Zahid Iqbal "
+                            android:textColor="#000"
+                            android:textSize="23sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="314dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingTop="45dp"
+                            android:text="Qualification:BDS &amp; FCPS"
+                            android:textColor="#000"
+                            android:textSize="19sp"
+                            android:textStyle="italic"/>
+
+                        <TextView
+                            android:layout_width="306dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingTop="75dp"
+                            android:text="Fees: 1000 &amp; 1500"
+                            android:textColor="#000"
+                            android:textSize="22sp"
+                            android:textStyle="italic" />
+
+                        <ImageView
+                            android:layout_width="109dp"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="302dp"
+                            android:layout_marginLeft="302dp"
+                            android:src="@drawable/na" />
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center"
+                    android:background="#000080"/>
+            </LinearLayout>
+        <TextView
+            android:layout_width="314dp"
+            android:layout_height="wrap_content"
+            android:background="#0505B3"
+            android:gravity="center"
+            android:text="Psychiaerist"
+            android:textColor="#FBF4F4"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000080"
+                >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/phydr1"
+
+                    >
+
+
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text=" Dr. Jawed Akbar Dars"
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification: MBBS &amp;FCPS "
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 2000 &amp; 2500"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="304dp"
+                        android:layout_marginLeft="304dp"
+                        android:layout_marginTop="0dp"
+                        android:src="@drawable/phy1" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:outlineProvider="background">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/phydr2"
+                    >
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text=" Dr. Rehan Ahmed Khan"
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification: MBBS &amp; MRCP"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 1500 &amp; 2000"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:layout_marginLeft="302dp"
+                        android:src="@drawable/phy2" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/phydr3"
+                    >
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text=" Dr. Muhammad Ilyas Jat "
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification: MBBS &amp; FCPS"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 1000 &amp; 1500"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:layout_marginLeft="302dp"
+                        android:src="@drawable/phy3" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/phydr4"
+                    >
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text=" Dr. Anil Kumar Wadhwani"
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification: MBBS &amp; DLO"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 2000 &amp; 2500"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:layout_marginLeft="302dp"
+                        android:src="@drawable/phy4" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/phydr5"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text=" Dr. S.M. Hammad Raza  "
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification: MBBS &amp; DLO"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 1500 &amp; 2000"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:layout_marginLeft="302dp"
+                        android:src="@drawable/phy5" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/phydr6"
+                    >
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text=" Dr. Muhammad Zain Yousuf"
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification:MBBS &amp; MCPS"
+                        android:textColor="#000"
+                        android:textSize="19sp"
+                        android:textStyle="italic"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 1000 &amp; 1500"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="308dp"
+                        android:layout_marginLeft="308dp"
+                        android:layout_marginTop="0dp"
+                        android:src="@drawable/phy6" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="314dp"
+            android:layout_height="wrap_content"
+            android:background="#0505B3"
+            android:gravity="center"
+            android:text="Gynaecologist"
+            android:textColor="#FBF4F4"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000080"
+                >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/gynodr1"
+
+                    >
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text="Dr. Noor Us Saher Tahir"
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification: MBBS &amp; M.C.P.S"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees:1000"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:src="@drawable/gyno1" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:outlineProvider="background">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/gynodr2"
+                    >
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text="Dr. Nazifa Mubashir"
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification: MBBS &amp; MRCOG"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 2000 &amp; 3000"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:layout_marginLeft="302dp"
+                        android:src="@drawable/gyno2" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/gynodr3"
+                    >
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text="Dr. Shaheen Nasser"
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification: MBBS, MCPS, MRCP"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 1500 &amp; 3000"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:layout_marginLeft="302dp"
+                        android:src="@drawable/na" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/gynodr4"
+                    >
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text="Dr. Huriyah Mufeedi"
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification: MBBS, MCPS, MRCP"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 1500"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:layout_marginLeft="302dp"
+                        android:src="@drawable/na" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/gynodr5"
+                    >
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text="Dr. Uzma Akram"
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification: MBBS &amp; MRCOG"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 1500"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:layout_marginLeft="302dp"
+                        android:src="@drawable/na" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/gynodr6"
+                    >
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text="Dr.Fozia Akmal"
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification: MBBS &amp; F.C.P.S"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 800"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:layout_marginLeft="302dp"
+                        android:src="@drawable/gyno6" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="314dp"
+            android:layout_height="wrap_content"
+            android:background="#0505B3"
+            android:gravity="center"
+            android:text="Cardiologist"
+            android:textColor="#FBF4F4"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000080"
+                >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/cardiodr1"
+
+                    >
+
+
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text="Dr.Saleem Sheikh"
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification: MBBS"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 2000 &amp; 2500"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:src="@drawable/cardio1" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:outlineProvider="background">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/cardiodr2"
+                    >
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text="Dr. Ghulam Abbas Shaikh"
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification: MBBS &amp; F.C.P.S"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 1500 &amp; 2000"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:layout_marginLeft="302dp"
+                        android:src="@drawable/cardio2" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/cardiodr3"
+                    >
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text="Dr. Kazi Taqiuddin Adil"
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification: MBBS "
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 1500 &amp; 2000"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:layout_marginLeft="302dp"
+                        android:src="@drawable/na" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/cardiodr4"
+                    >
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text=" Dr. Khalid Ahmed Khalil"
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification: MBBS &amp; FACC"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 2000 &amp; 4000"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:layout_marginLeft="302dp"
+                        android:src="@drawable/cardio4" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/cardiodr5"
+                    >
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text="Dr.Ziauddin Phanwar"
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification: MBBS &amp; MD"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 1500 &amp; 2000"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:layout_marginLeft="302dp"
+                        android:src="@drawable/cardio5" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/cardiodr6"
+                    >
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text="Dr. Abdul Rasheed Khan"
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification: MBBS &amp; FCPS"
+                        android:textColor="#000"
+                        android:textSize="19sp"
+                        android:textStyle="italic"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 1000 &amp; 1500 "
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:layout_marginLeft="302dp"
+                        android:src="@drawable/na" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="314dp"
+            android:layout_height="wrap_content"
+            android:background="#0505B3"
+            android:gravity="center"
+            android:text="ENT"
+            android:textColor="#FBF4F4"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000080"
+                >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/entdr1"
+
+                    >
+
+
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text=" Dr. Zafar Mahmood"
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification: MBBS &amp;FACF "
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 1500 &amp; 2000"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="304dp"
+                        android:layout_marginLeft="304dp"
+                        android:layout_marginTop="0dp"
+                        android:src="@drawable/na" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:outlineProvider="background">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/entdr2"
+                    >
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text=" Dr. Danish Ur Rahim "
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification: MBBS &amp; DLO"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 500 &amp; 1000"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:layout_marginLeft="302dp"
+                        android:src="@drawable/ent2" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/entdr3"
+                    >
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text="Dr. Shamaila Nawaz Khan"
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification: MBBS &amp; FCPS"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 1000 &amp; 1500"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:layout_marginLeft="302dp"
+                        android:src="@drawable/na" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/entdr4"
+                    >
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text="Dr. Sohail Tirmizi"
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification: MBBS &amp; DLO"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 1000 &amp; 1500"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:layout_marginLeft="302dp"
+                        android:src="@drawable/ent4" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/entdr5"
+                    >
+
+                    <TextView
+                        android:layout_width="316dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text=" Dr. S.M. Hammad Raza  "
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification: MBBS &amp; DLO"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 1500 &amp; 2000"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:layout_marginLeft="302dp"
+                        android:src="@drawable/ent5" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/entdr6"
+                    >
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text="Dr. Talha Ahmed Qureshi"
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification:MBBS &amp; FCPS"
+                        android:textColor="#000"
+                        android:textSize="19sp"
+                        android:textStyle="italic"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 1000 &amp; 1500"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:layout_marginLeft="302dp"
+                        android:src="@drawable/ent6" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="314dp"
+            android:layout_height="wrap_content"
+            android:background="#0505B3"
+            android:gravity="center"
+            android:text="Dermatologist"
+            android:textColor="#FBF4F4"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000080"
+                >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/dermadr1"
+
+                    >
+
+
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text="Dr. Zafar Ahmed"
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification: MBBS &amp; CRPS"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 1500 &amp; 2000"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="304dp"
+                        android:layout_marginLeft="304dp"
+                        android:layout_marginTop="0dp"
+                        android:src="@drawable/na" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:outlineProvider="background">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/dermadr2"
+                    >
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text="Dr.Nazia Shakeel"
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification: MBBS &amp; MCPS"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 1500 &amp; 2000"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:layout_marginLeft="302dp"
+                        android:src="@drawable/derma2" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/dermadr3"
+                    >
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text="Dr.Salman Mansoor"
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification: MBBS ;"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 1500 &amp; 2000"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:layout_marginLeft="302dp"
+                        android:src="@drawable/derma3" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/dermadr4"
+                    >
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text="Dr. Amber Usman"
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification: MBBS &amp; DPD"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 1500 &amp; 2000"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:layout_marginLeft="302dp"
+                        android:src="@drawable/na" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/dermadr5"
+                    >
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text=" Dr.Mahwish Fawad  "
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification: MBBS"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 2000"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:layout_marginLeft="302dp"
+                        android:src="@drawable/derma5" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/dermadr6"
+                    >
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text="Dr. Sana Siddiqui"
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification:MBBS &amp; FCPS"
+                        android:textColor="#000"
+                        android:textSize="19sp"
+                        android:textStyle="italic"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 1500"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:layout_marginLeft="302dp"
+                        android:src="@drawable/derma6" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="314dp"
+            android:layout_height="wrap_content"
+            android:background="#0505B3"
+            android:gravity="center"
+            android:text="Urologists"
+            android:textColor="#FBF4F4"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000080"
+                >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/urodr1"
+
+                    >
+
+
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text="Dr. Sharjeel Saulat"
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification: MBBS &amp; FCPS"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 2100 &amp; 2500"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:src="@drawable/uro1" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:outlineProvider="background">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/urodr2"
+                    >
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text="Dr. Shahzad Ali "
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification: MBBS &amp; F.C.P.S"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 1500 &amp; 2000"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:layout_marginLeft="302dp"
+                        android:src="@drawable/uro2" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/urodr3"
+                    >
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text="Dr. Ali Haider Khowaja"
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification: MBBS "
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 1000 &amp; 1500"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:layout_marginLeft="302dp"
+                        android:src="@drawable/uro3" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/urodr4"
+                    >
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text="Dr. Adnan Siddiq"
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification: N/A"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 1000 &amp; 1500"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:layout_marginLeft="302dp"
+                        android:src="@drawable/uro4" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/urodr5"
+                    >
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text="Dr. Muhammad Shoaib Mithani"
+                        android:textColor="#000"
+                        android:textSize="21sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification: MBBS &amp; FCPS"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 1500 &amp; 2500 "
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:layout_marginLeft="302dp"
+                        android:src="@drawable/uro5" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/urodr6"
+                    >
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text="Dr. Muhammad Mansoor"
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Qualification: MBBS &amp; FCPS"
+                        android:textColor="#000"
+                        android:textSize="19sp"
+                        android:textStyle="italic"/>
+
+                    <TextView
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="75dp"
+                        android:text="Fees: 1000 &amp; 2000 "
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="italic"/>
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:layout_marginLeft="302dp"
+                        android:src="@drawable/uro6" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+        </LinearLayout>
+
+        </TableLayout></ScrollView>

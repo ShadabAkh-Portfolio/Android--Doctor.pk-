@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000080"
+    tools:context=".MainActivity">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000080"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:src="@drawable/logo"
+                android:layout_gravity="center" />
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000080"
+                >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/hos1"
+
+                    >
+
+
+                    <TextView
+                        android:layout_width="301dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text="Clifton Kidney General hospital"
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:src="@drawable/hos1" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:outlineProvider="background">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/hos2"
+                    >
+
+                    <TextView
+                        android:layout_width="293dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text="Central Hospital"
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+
+
+
+
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:layout_marginLeft="302dp"
+                        android:src="@drawable/hos2" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/hos3"
+                    >
+
+                    <TextView
+                        android:layout_width="304dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text="OMI Hospital"
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+
+
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:layout_marginLeft="302dp"
+                        android:src="@drawable/hos3" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/hos4"
+                    >
+
+                    <TextView
+                        android:layout_width="301dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text="National Medical center"
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+
+
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:layout_marginLeft="302dp"
+                        android:src="@drawable/hos4" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:id="@+id/hos5"
+                    >
+
+                    <TextView
+                        android:layout_width="300dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingTop="12dp"
+                        android:text="Osmania Hospital"
+                        android:textColor="#000"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+
+
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="302dp"
+                        android:layout_marginLeft="302dp"
+                        android:src="@drawable/hos5" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000080"/>
+        </LinearLayout></TableLayout></ScrollView>
